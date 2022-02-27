@@ -110,3 +110,7 @@ class Employee(Common_Fields):
         if not self.emp_id:
             raise ValidationErr("emp_id should be passed")
         super(Employee, self).save(*args, **kwargs)
+        
+
+# class Company(models.Model):
+# name = models.char
