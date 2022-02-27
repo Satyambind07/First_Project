@@ -1,0 +1,8 @@
+use("taskdb")
+
+db.student.insert({"ID" : "1",
+"Name" : "Vivo",
+  "Section" : "A"
+})
+
+
